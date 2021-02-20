@@ -6,3 +6,22 @@
 方法3：链表结构存储非零项
 
 线性表：同类元素的有序序列
+数组
+```
+typedef struct LNode *List;
+struct LNode{
+    ElementType Data[MAXSIZE];
+    int Last;
+};
+```
+链表
+```
+typedef struct LNode *List;
+struct LNode{
+    ElementType Data;
+    List Next;
+};
+struct Lnode L;
+List PtrL;
+```
+广义表
